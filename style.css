@@ -1,0 +1,97 @@
+body {
+  background: #F5F5F5;
+}
+.container {
+  margin: 0 32px;
+
+}
+.header {
+  padding: 32px 0;
+}
+.about {
+  margin-top: 40px;
+  margin-bottom: 138px;
+}
+.about p {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 500;
+
+}
+.about p .bold {
+  font-weight: 900;
+  position: relative;
+}
+.about p .bottom-line {
+  border-bottom: 2px dashed #6BA5EA;
+}
+.about p .circle::after {
+  content: url(images/circulo.svg);
+  position: absolute;
+  top: -8px;
+  left: -10px;
+}
+.email {
+  margin-bottom: 88px;
+}
+.email a {
+  display: flex;
+  align-items: center;
+}
+.email img {
+  margin-right: 6px;
+}
+.email a {
+  text-decoration: none;
+}
+.email a p {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+.projects {
+  margin-bottom: 64px;
+}
+.projects .project {
+  margin: 0 16px 48px 16px;
+}
+.projects .project .project-image,
+.projects .project .project-title,
+.projects .project .project-description {
+  margin-bottom: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+.projects .project .project-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 26px;
+}
+.projects .project .project-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: uppercase;
+  margin-left: 8px;
+}
+.projects .project .project-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 8px;
+
+}
+.projects .project .tags {
+  display: flex;
+  margin-left: 8px;
+}
+.projects .project .tags .tag {
+  margin-right: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #6BA5EA;
+  font-family: 'Raleway', sans-serif;
+}

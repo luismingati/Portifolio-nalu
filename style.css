@@ -5,8 +5,14 @@ body {
   margin: 0 32px;
 
 }
-.header {
+header {
   padding: 32px 0;
+}
+header p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 900;
+  font-family: 'Raleway', sans-serif;
 }
 .about {
   margin-top: 40px;
@@ -16,7 +22,8 @@ body {
   font-size: 28px;
   line-height: 42px;
   font-weight: 500;
-
+  width: 293px;
+  font-family: 'Raleway', sans-serif;
 }
 .about p .bold {
   font-weight: 900;
@@ -30,6 +37,11 @@ body {
   position: absolute;
   top: -8px;
   left: -10px;
+}
+.about p .done::after {
+  content: url(images/done.svg);
+  position: absolute;
+  right: -27px;
 }
 .email {
   margin-bottom: 88px;
